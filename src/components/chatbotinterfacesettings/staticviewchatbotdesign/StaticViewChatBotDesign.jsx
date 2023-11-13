@@ -1,4 +1,3 @@
-import HiteshiLogo from "../../../assets/images/HiteshiLogo.png";
 import { React } from "react";
 
 import { Box, TextField, Typography } from "@mui/material";
@@ -36,7 +35,7 @@ export default function ViewChatBot({ chatbotContentBgColor }) {
             backgroundColor: headerBackgroundColor,
           }}
         >
-          <img src={HiteshiLogo} alt="Hiteshi" height={30} />
+          <img src=" " alt="Logo " height={30} />
           <Box>
             <Typography variant="h6"></Typography>
           </Box>

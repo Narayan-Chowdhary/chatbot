@@ -1,4 +1,3 @@
-import HiteshiLogo from "../../assets/images/HiteshiLogo.png";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import { Outlet } from "react-router-dom";
@@ -63,9 +62,9 @@ export default function Sidebar(props) {
         }}
       >
         <img
-          src={HiteshiLogo}
-          alt="Hiteshi Logo"
-          title="Hiteshi"
+          src=" "
+          alt="Logo"
+          title="Logo"
           height={50}
           width={150}
         />

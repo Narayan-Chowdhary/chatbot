@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 
-import HiteshiLogo from "../../../assets/images/HiteshiLogo.png";
 import { Box, TextField, Typography } from "@mui/material";
 import Message from "./Message";
 import SendIcon from "@mui/icons-material/Send";
@@ -57,7 +56,7 @@ export default function ViewChatBot() {
             backgroundColor: "transparent",
           }}
         >
-          <img src={HiteshiLogo} alt="Hiteshi" height={40} />
+          <img src=" " alt="img" height={40} />
           <Box>
             <Typography variant="h6">{}</Typography>
           </Box>
